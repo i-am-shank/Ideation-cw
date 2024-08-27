@@ -1,0 +1,10 @@
+****   Evolution of UI/UX Trends   ****
+
+--> Homepage (intro, purpose, 1-line / Image overview of different eras, timeline-navigation)
+--> About
+--> Contact Us
+  --> 1990s (Just a technique to arrange & organise objects .. organised HTML .. focus on usability & accessibility)
+  --> 2000s (Little more UI .. Responsive design)
+  --> 2010s ()
+  --> 2020s (full of animations, responsive & dynamic website)
+  --> 2030s ()
