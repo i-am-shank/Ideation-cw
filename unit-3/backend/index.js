@@ -10,4 +10,7 @@ app.listen(PORT, () => {
     console.log("Server listening on PORT :", PORT);
 });
 
+// routes -----------
+const domainRoutes = require("./routes/domainRoutes");
+
 app.use("/api/v1", domainRoutes);

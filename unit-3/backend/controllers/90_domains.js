@@ -1,6 +1,6 @@
-exports.getAll90Domains = async (req, res) => {
+exports.getAll90sDomains = async (req, res) => {
     try {
-        const allCourses = [
+        const allDomains = [
             {
                 name: "World Wide Web",
                 year: 1991,
@@ -122,5 +122,16 @@ exports.getAll90Domains = async (req, res) => {
                 domain: "https://web.archive.org/web/19991109195228/http://www.linux.org/",
             },
         ];
-    } catch (err) {}
+
+        return res.status(200).json({
+            success: true,
+            data: allDomains,
+        });
+    } catch (err) {
+        return res.status(404).json({
+            success: false,
+            message: "Can't fetch all-domains.",
+            error: err.message,
+        });
+    }
 };
